@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+
+# Project specific (optional - uncomment if needed)
+# screenshots/
+# outputs/
+# data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

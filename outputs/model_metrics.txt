@@ -1,0 +1,53 @@
+======================================================================
+  LOAN APPROVAL PREDICTOR - MODEL EVALUATION METRICS
+======================================================================
+
+Date              : 2026-06-21 20:20:41
+Test set size     : 123 samples
+Training set size : 491 samples
+Features used     : 11
+
+----------------------------------------------------------------------
+  MODEL PERFORMANCE COMPARISON
+----------------------------------------------------------------------
+
+  Model      : Logistic Regression
+  Accuracy   : 0.7967
+  Precision  : 0.7981
+  Recall     : 0.9540
+  F1 Score   : 0.8691
+  ----------------------------------------
+
+  Model      : Random Forest
+  Accuracy   : 0.7805
+  Precision  : 0.8000
+  Recall     : 0.9195
+  F1 Score   : 0.8556
+  ----------------------------------------
+
+  Model      : Decision Tree
+  Accuracy   : 0.6911
+  Precision  : 0.7816
+  Recall     : 0.7816
+  F1 Score   : 0.7816
+  ----------------------------------------
+
+
+======================================================================
+  BEST MODEL: Logistic Regression
+======================================================================
+
+  Classification Report:
+
+              precision    recall  f1-score   support
+
+Rejected (N)       0.79      0.42      0.55        36
+Approved (Y)       0.80      0.95      0.87        87
+
+    accuracy                           0.80       123
+   macro avg       0.79      0.69      0.71       123
+weighted avg       0.80      0.80      0.77       123
+
+  Confusion Matrix:
+  [15 21]
+  [ 4 83]
