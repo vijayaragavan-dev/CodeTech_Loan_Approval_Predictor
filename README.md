@@ -15,7 +15,7 @@
 | Internship Program | Machine Learning Internship     |
 | Organization       | CodeTech IT Solutions Pvt. Ltd. |
 | Intern Name        | Vijayaragavan U                 |
-| Intern ID          | CITS4915                        |
+| Intern ID          | CITS5452                       |
 | Duration           | 4 Weeks                         |
 | Internship Period  | 18 June 2026 – 16 July 2026     |
 | Domain             | Machine Learning                |
